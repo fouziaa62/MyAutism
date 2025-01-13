@@ -1,8 +1,6 @@
-.A-style{
-    text-align: center;
-    font-size: medium;
-    color: aliceblue;
+header {
     background-color: black;
+    color: lightblue;
 }
 
 .introduction {
