@@ -11,17 +11,36 @@
     <link rel="icon" href="assets/images/favicon/favicon-16x16.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon/favicon-32x32.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <header>
         <h1 class="A-style">My Autism</h1>
     </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Autism</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Myths">Myths</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#awareness">Awareness</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#support">Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <section style="display: flex; align-items: center; padding: 20px;">
         <div style="flex: 1;">
-            <img src="assets/images/aut.jpg" alt="A painting porrtrays Neurodiversity" style="max-width: 100%; height: auto;">
+            <img src="assets/images/autism.webp" alt="A painting porrtrays Neurodiversity" style="max-width: 100%; height: auto;">
         </div>
         <div style="flex: 1; padding-left: 20px;">
             <h2>Welcome to My Autism</h2>
@@ -38,12 +57,24 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/images/Myths.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Myths about Autism</h5>
+                        <p>Learn about common misconceptions.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/images/awareness.png" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="clr">Autism Awareness</h5>
+                        <p class="clr">Spread awareness and understanding.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/images/help.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="clr">Support and Help</h5>
+                        <p class="clr">Find resources and support for families.</p>
+                    </div>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -56,6 +87,12 @@
             </a>
         </div>
     </section>
+   
+    
+    
+
+   
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
