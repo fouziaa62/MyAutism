@@ -1,3 +1,6 @@
+button {
+    background-color: #b069c8;;
+}
 .A-style{
     text-align: center;
     font-size: medium;
@@ -40,4 +43,10 @@
 
 .navStyle:hover {
     color: rgb(222, 100, 19) !important;
+}
+.btnStyle:hover {
+    background-color:rgb(222, 100, 19)
+}
+button {
+    background-color: #b069c8;;
 }
