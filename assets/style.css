@@ -50,3 +50,10 @@
 button {
     background-color: #b069c8;;
 }
+.myth {
+    background-color: rgb(212, 199, 223);
+    padding: 50px 0;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
