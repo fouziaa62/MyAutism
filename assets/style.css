@@ -38,7 +38,7 @@
 
 .hero h1{
     font-size: 50px;
-    color: white;
+    color: rgb(3, 1, 1);
 }
 
 .navStyle:hover {
@@ -58,5 +58,5 @@ button {
 }
 .myth h1{
     font-size: 50px;
-    color: white;
+    color: rgb(1, 0, 0);
 }
