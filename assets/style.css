@@ -48,12 +48,15 @@
     background-color:rgb(222, 100, 19)
 }
 button {
-    background-color: #b069c8;;
+    background-color: #b069c8;
 }
 .myth {
     background-color: rgb(212, 199, 223);
     padding: 50px 0;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    width:70vw
+}
+.myth h1{
+    font-size: 50px;
+    color: white;
 }
